@@ -1,0 +1,78 @@
+*{margin:0; padding:0; }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 100%;
+    font-family:sans-serif;
+}
+div,section,span ,ul,a,li,header{
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+   }
+#menu li{
+    list-style:none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color:rgb(80, 180, 226);
+    text-decoration:indigo;
+    font-size: 20px;
+}
+section{
+    width:100%;
+    float:left;
+    height:100vh;
+    position:relative;
+}
+#HOME{
+
+
+}
+#SERVICES{
+    background-color:#eaedf0;
+}
+#ABOUT{
+    background-color:salmon;
+}
+#CONTACT{
+    background-color:slategray ;  
+}
+
+h1{
+    margin: 30px 0 20px 0;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px rgb(11, 8, 56);
+    text-transform: center;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50% ,-50%);
+    color:rgb(9, 40, 61);
+}
+p{
+    font-size:25px ;
+    word-spacing:2px ;
+    margin-bottom:25px ;
+    text-shadow: 1px 1px 1px rgb(43, 92, 165);
+    text-transform: center;
+    position: absolute;
+    top:65%;
+    left: 35%;
+    transform: translate(-50% ,-50%);
+}
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    left: 35%;
+    text-transform: center;
+}
